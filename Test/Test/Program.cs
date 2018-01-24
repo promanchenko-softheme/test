@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Helpers;
+using System;
 
 namespace Test
 {
@@ -6,7 +7,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!!!");
+            Console.WriteLine("Hello world!!! {0}" , Class1.GetData());
 
             Console.ReadKey();
         }
