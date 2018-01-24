@@ -7,7 +7,8 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!!! {0}" , Class1.GetData());
+            var c = 10 + 15;
+            Console.WriteLine("Hello, World! {0}", c);
 
             Console.ReadKey();
         }
